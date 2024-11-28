@@ -42,3 +42,4 @@ tax: tax // la variable tiene el mismo nombre se puede poner solo tax
 
 console.log('Total', total);
 console.log('Tax', taxTotal);
+//fin
