@@ -1,3 +1,4 @@
+import { Value } from './../../node_modules/regjsparser/parser.d';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = '02-bases';
+  public title: string = 'Hola gente';
+  public contador: string = '21';
+
+  increaseby (Value:Number): void {
+    this.contador +=1;
+  }
+
 }
+
+
